@@ -24,7 +24,7 @@ newPoste.save().then(poste => res.json(poste));
  });
 
  //@route DELETE api/postes:id
-//@des DELETE all postes
+//@des DELETE all delete
 //@acesso publico
 router.delete('/:id', (req, res) => {
      Poste.findById(req.params.id)

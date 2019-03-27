@@ -19,7 +19,6 @@ mongoose
   .then(() => console.log('MongoDB conectado...'))
   .catch(err => console.log(err)); 
 
-
 //Routes
 app.use('/api/postes', postes);
 
